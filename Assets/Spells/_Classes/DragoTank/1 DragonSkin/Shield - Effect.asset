@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c34e10cb5a4c0c836263671f9c7d43, type: 3}
+  m_Name: Shield - Effect
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 3020219379305152513
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020219379305152513
+      type: {class: CompositeEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _effects:
+        - rid: 3020219379305152517
+        - rid: 3020219379305152520
+    - rid: 3020219379305152517
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 3020219379305152519
+        _name: 27
+        _isCertain: 1
+        _builder:
+          rid: 3020219379305152518
+    - rid: 3020219379305152518
+      type: {class: NameBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _name: 30
+    - rid: 3020219379305152519
+      type: {class: AddToStatOnGetPEC, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data:
+        _valueName: 20
+    - rid: 3020219379305152520
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 3020219379305152522
+        _name: 27
+        _isCertain: 1
+        _builder:
+          rid: 3020219379305152521
+    - rid: 3020219379305152521
+      type: {class: NameBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _name: 3
+    - rid: 3020219379305152522
+      type: {class: AddToStatOnGetPEC, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data:
+        _valueName: 23

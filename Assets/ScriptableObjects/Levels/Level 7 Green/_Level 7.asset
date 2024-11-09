@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a05f45f6a492fbc44231d6c13754f, type: 3}
+  m_Name: _Level 7
+  m_EditorClassIdentifier: 
+  _clampingStats:
+    <Harmony>k__BackingField:
+      _min: 0
+      _max: 0
+    <Armor>k__BackingField:
+      _min: -50
+      _max: 50
+    <CriticalChance>k__BackingField:
+      _min: 0
+      _max: 0
+    <CriticalMultiplier>k__BackingField:
+      _min: 0
+      _max: 0
+  _worldCenter: {x: 1, y: 1}
+  _boostingCurves:
+    <HealthCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <DamageCurve>k__BackingField: {fileID: 11400000, guid: a4991be047ceadc49ad933e375b5afe6, type: 2}
+    <ArmorCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <FakeDamageCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+  _waves:
+  - {fileID: 11400000, guid: 9267a704217498f458dfd6e00d7f361b, type: 2}
+  - {fileID: 11400000, guid: 5a26a357874e3604e8959ca114c93d40, type: 2}
+  - {fileID: 11400000, guid: 9e63f1778a71b0c49b44978f055465b7, type: 2}
+  - {fileID: 11400000, guid: 1fa3f12cb2d81df4281ae025cd495e59, type: 2}
+  - {fileID: 11400000, guid: f68896816c1a4be4bafca8da90ac1e61, type: 2}
+  - {fileID: 11400000, guid: 9e3bdf83344e18f448df726fc25dd1f6, type: 2}
+  - {fileID: 11400000, guid: 7f12ee8f9bb33b8418b544d04acd2e72, type: 2}
+  - {fileID: 11400000, guid: 6da2f47d08042ff45b6036733c2a3c63, type: 2}
+  - {fileID: 11400000, guid: 9bd9cf7db40b4614b85b3f7e8ecf511a, type: 2}
+  - {fileID: 11400000, guid: 143563e693fcffa4394232569d33e23d, type: 2}
+  - {fileID: 11400000, guid: ddaca67b5aaa0d04c91acff9f4446c7a, type: 2}
+  - {fileID: 11400000, guid: d8f2a23d458b1e14f8ab16f7d4c7211a, type: 2}
+  - {fileID: 11400000, guid: fa57a29305275f64fb883ba5cea4edbe, type: 2}
+  - {fileID: 11400000, guid: abcd5c0ef423d624bb8cbc7fd6d4fecc, type: 2}
+  - {fileID: 11400000, guid: 4cb20c1870d712b4ba7132c9d8045687, type: 2}

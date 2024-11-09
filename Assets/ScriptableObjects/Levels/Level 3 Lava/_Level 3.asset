@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a05f45f6a492fbc44231d6c13754f, type: 3}
+  m_Name: _Level 3
+  m_EditorClassIdentifier: 
+  _clampingStats:
+    <Harmony>k__BackingField:
+      _min: 0
+      _max: 0
+    <Armor>k__BackingField:
+      _min: -50
+      _max: 50
+    <CriticalChance>k__BackingField:
+      _min: 0
+      _max: 0
+    <CriticalMultiplier>k__BackingField:
+      _min: 0
+      _max: 0
+  _worldCenter: {x: 1, y: 1}
+  _boostingCurves:
+    <HealthCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <DamageCurve>k__BackingField: {fileID: 11400000, guid: a4991be047ceadc49ad933e375b5afe6, type: 2}
+    <ArmorCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <FakeDamageCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+  _waves:
+  - {fileID: 11400000, guid: 850c6e36d74f9ca41a6e9edf04c919d1, type: 2}
+  - {fileID: 11400000, guid: 5f6bff318d662dd4ea2ed99ce0eb0570, type: 2}
+  - {fileID: 11400000, guid: 491001a77143d9d42822f7bbe91b139f, type: 2}
+  - {fileID: 11400000, guid: c18975456a679c041855a18ce4e480d4, type: 2}
+  - {fileID: 11400000, guid: 3c8ba95226fc57047b72794dfc919c68, type: 2}
+  - {fileID: 11400000, guid: a3f26167696d5374eb8b2e246b49680d, type: 2}

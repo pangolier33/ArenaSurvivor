@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Lances - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: LANCES
+  <Effect>k__BackingField: {fileID: 11400000, guid: 3329f679f0581194bb9971943f94d223, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 32541dafa42885441ba050a5d1270018, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: FIRES<color="yellow"><b> SPEAR</b><color="white">
+      IN THE <color="yellow"><b>WAY OF WALKING</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959051
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959052
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 7573584759174725657
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573584759174725658
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 7573584759174725659
+    <Weight>k__BackingField: 5
+  - <Description>k__BackingField: FIRES<color="yellow"><b> SPEAR</b><color="white">
+      IN THE <color="yellow"><b>WAY OF WALKING</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959053
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959054
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 6001431410297798660
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 6001431410297798661
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 6001431410297798662
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: FIRES<color="yellow"><b> SPEAR</b><color="white">
+      IN THE <color="yellow"><b>WAY OF WALKING</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959055
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959056
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 6001431410297798664
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 6001431410297798665
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 6001431410297798666
+    <Weight>k__BackingField: 12
+  - <Description>k__BackingField: FIRES<color="yellow"><b> SPEAR</b><color="white">
+      IN THE <color="yellow"><b>WAY OF WALKING</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959057
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959058
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 6001431410297798667
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 6001431410297798668
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 6001431410297798669
+    <Weight>k__BackingField: 14
+  - <Description>k__BackingField: FIRES<color="yellow"><b> SPEAR</b><color="white">
+      IN THE <color="yellow"><b>WAY OF WALKING</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959059
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959060
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 6001431410297798672
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 6001431410297798671
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 6001431410297798670
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 6001431410297798660
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 6001431410297798661
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 6001431410297798662
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 6001431410297798664
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 6001431410297798665
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 6001431410297798666
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 6001431410297798667
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 6001431410297798668
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 6001431410297798669
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 6001431410297798670
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 6001431410297798671
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 6001431410297798672
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 7573584759174725657
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 7573584759174725658
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 7573584759174725659
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 8278750380586959051
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 500
+    - rid: 8278750380586959052
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 8278750380586959053
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 500
+    - rid: 8278750380586959054
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3.8
+    - rid: 8278750380586959055
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 500
+    - rid: 8278750380586959056
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3.5
+    - rid: 8278750380586959057
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 500
+    - rid: 8278750380586959058
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3.3
+    - rid: 8278750380586959059
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 500
+    - rid: 8278750380586959060
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3

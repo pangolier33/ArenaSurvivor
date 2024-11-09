@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e67c7e5a888450abdc6a04cdb7953cd, type: 3}
+  m_Name: Player Stats
+  m_EditorClassIdentifier: 
+  _statsConfiguration:
+    _health:
+      _base: 400
+    _healthRegen:
+      _interval: 0.5
+      _amount: 2
+    _shield:
+      _base: 1
+    _shieldRegen:
+      _interval: 0.5
+      _amount: 1
+    _armor:
+      _base: 0
+      _k: 0.005
+    _harmony:
+      _base: 0
+      _k: 0.005
+    _damage:
+      _base: 1
+    _criticalChance:
+      _base: 30
+      _k: 0.005
+    _criticalMultiplier:
+      _base: 1.5
+    _thorns:
+      _base: 0.1
+    _cooldownDecrementValue: 0
+    _cooldownDecrementCoefficient: 0.005
+    _cooldownBaseValue: 1
+    _multicastPoints: 25
+    _multicastCoefficient: 0.005
+    _movingSpeed: 0.88
+    _movingSpeedBoostingDelay: 9999
+    _movingSpeedBoostingAmplifier: 1.25
+    _staminaMax:
+      _base: 200
+    _staminaRegenVelocity:
+      _interval: 0.025
+      _amount: 2
+    _staminaLossVelocity:
+      _interval: 0.008
+      _amount: 1
+    _staminaSpeedPenalty: 0.5
+    _staminaMinPartToUse: 0.55
+    _staminaKillEnemyScores: 6

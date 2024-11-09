@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a05f45f6a492fbc44231d6c13754f, type: 3}
+  m_Name: _Level 9
+  m_EditorClassIdentifier: 
+  _clampingStats:
+    <Harmony>k__BackingField:
+      _min: 0
+      _max: 0
+    <Armor>k__BackingField:
+      _min: -50
+      _max: 50
+    <CriticalChance>k__BackingField:
+      _min: 0
+      _max: 0
+    <CriticalMultiplier>k__BackingField:
+      _min: 0
+      _max: 0
+  _worldCenter: {x: 1, y: 1}
+  _boostingCurves:
+    <HealthCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <DamageCurve>k__BackingField: {fileID: 11400000, guid: a4991be047ceadc49ad933e375b5afe6, type: 2}
+    <ArmorCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <FakeDamageCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+  _waves:
+  - {fileID: 11400000, guid: 47cf97445a22a0640b00ce9dfe5b9d82, type: 2}
+  - {fileID: 11400000, guid: e21abdf533e381b4ead4bfaba505c315, type: 2}
+  - {fileID: 11400000, guid: 6813876e6ab0496479c237445d2b00d0, type: 2}
+  - {fileID: 11400000, guid: 1d7e48c36b6ce884cbfe267c0a181703, type: 2}
+  - {fileID: 11400000, guid: eae35d88b956c804db455b1171c1443b, type: 2}
+  - {fileID: 11400000, guid: 46a1fe3a4c0ad334a9985da56ded149e, type: 2}
+  - {fileID: 11400000, guid: 149d6bf1561b8fb4593416658a20bb60, type: 2}
+  - {fileID: 11400000, guid: 8825036876c3b9449ac31b0241fb3bfe, type: 2}
+  - {fileID: 11400000, guid: 940ee7d995d0e5d48a39e19e8cf3aa07, type: 2}
+  - {fileID: 11400000, guid: ba7ca3e77e444304eb203d31833b386b, type: 2}
+  - {fileID: 11400000, guid: 0f2362601fade734a839520e3edc30e0, type: 2}
+  - {fileID: 11400000, guid: 54882f6c1dba12140a49cafd1cfe2034, type: 2}
+  - {fileID: 11400000, guid: 191a31b18af93ed498a0c1d92f7ea71c, type: 2}
+  - {fileID: 11400000, guid: 3bf81aa943d018b42960d7b1e77a6b24, type: 2}
+  - {fileID: 11400000, guid: 2c7ba290f40fe094587ea27b31711a66, type: 2}
+  - {fileID: 11400000, guid: b691291956a72d749b0a8d5eef57e5ba, type: 2}
+  - {fileID: 11400000, guid: 0db52d05ea2ee594c976646a723a11b3, type: 2}
+  - {fileID: 11400000, guid: 72d1cdf6343054c41bc6f118fc4b63a8, type: 2}
+  - {fileID: 11400000, guid: 8fc3029d1ea596f49958e06fdd1c940a, type: 2}

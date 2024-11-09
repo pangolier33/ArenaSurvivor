@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Splash - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: SPLASH
+  <Effect>k__BackingField: {fileID: 11400000, guid: c31c5159a0d1a6d91ae394764260d4cc, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 2d824d4527207dd4292a397af5f3e4a0, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: SLASH ENEMIES FROM <color="yellow"><b>LEFT AND
+      RIGHT SIDES</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586959041
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959042
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959043
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 8278750380586959044
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 33
+        <Builder>k__BackingField:
+          rid: 3020218861903413250
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020218861903413253
+    <Weight>k__BackingField: 30
+  - <Description>k__BackingField: SLASH ENEMIES FROM <color="yellow"><b>LEFT AND
+      RIGHT SIDES</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586959045
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959046
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959047
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573585238868361230
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 33
+        <Builder>k__BackingField:
+          rid: 3020218861903413254
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020218861903413256
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: SLASH ENEMIES FROM <color="yellow"><b>LEFT AND
+      RIGHT SIDES</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586959048
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959049
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959050
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573585238868361231
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 33
+        <Builder>k__BackingField:
+          rid: 3020218861903413255
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020218861903413257
+    <Weight>k__BackingField: 10
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020218861903413250
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020218861903413253
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.4
+    - rid: 3020218861903413254
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020218861903413255
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020218861903413256
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.4
+    - rid: 3020218861903413257
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.4
+    - rid: 7573585238868361230
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 7573585238868361231
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 8278750380586959041
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.8
+        _y: 0.7
+    - rid: 8278750380586959042
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 250
+    - rid: 8278750380586959043
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.1
+    - rid: 8278750380586959044
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 8278750380586959045
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.9
+        _y: 0.8
+    - rid: 8278750380586959046
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 8278750380586959047
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.9
+    - rid: 8278750380586959048
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 1.1
+        _y: 1
+    - rid: 8278750380586959049
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 350
+    - rid: 8278750380586959050
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.7

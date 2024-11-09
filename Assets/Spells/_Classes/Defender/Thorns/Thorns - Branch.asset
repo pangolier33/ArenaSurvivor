@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Thorns - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: THORNS
+  <Effect>k__BackingField: {fileID: 11400000, guid: 630bdf6e099392106b74a08b27123a9e, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 6f9abf19c0f250846a0f2b2afcd295c3, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: <color="yellow"><b>REFLECT DAMAGE</b><color="white">
+      WHEN ACTIVE <color="yellow"><b>INCREASE REFLECTION
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219359872679936
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 7573584555155390479
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 7573584555155390480
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 2
+        <Builder>k__BackingField:
+          rid: 7573584719607758867
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: <color="yellow"><b>REFLECT DAMAGE</b><color="white">
+      WHEN ACTIVE <color="yellow"><b>INCREASE REFLECTION
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219359872679941
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439405
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439406
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 2
+        <Builder>k__BackingField:
+          rid: 1998335227511439407
+    <Weight>k__BackingField: 15
+  - <Description>k__BackingField: <color="yellow"><b>REFLECT DAMAGE</b><color="white">
+      WHEN ACTIVE <color="yellow"><b>INCREASE REFLECTION
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219359872679942
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439409
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439410
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 2
+        <Builder>k__BackingField:
+          rid: 1998335227511439411
+    <Weight>k__BackingField: 20
+  references:
+    version: 2
+    RefIds:
+    - rid: 1998335227511439405
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 1998335227511439406
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 1998335227511439407
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 100
+    - rid: 1998335227511439409
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439410
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 1998335227511439411
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 100
+    - rid: 3020219359872679936
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219359872679941
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219359872679942
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 7573584555155390479
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 7573584555155390480
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 7573584719607758867
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 100

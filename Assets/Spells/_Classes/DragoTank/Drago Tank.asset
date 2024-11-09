@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac1472a64d04a76b3640477b8b11b18, type: 3}
+  m_Name: Drago Tank
+  m_EditorClassIdentifier: 
+  _baseBranch:
+    rid: 7573584788854931804
+  _commonBranches:
+  - rid: 2893981084758310912
+  - rid: 2893981084758310914
+  _ultBranch:
+    rid: 4863668997466357784
+  <Name>k__BackingField: 7
+  <Icon>k__BackingField: {fileID: 21300000, guid: 43ed6d0b94ffe0a469b60c025471ce61, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2893981084758310912
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: aa3da417734a10d4ca553308e4ccd996, type: 2}
+        - {fileID: 11400000, guid: aa3da417734a10d4ca553308e4ccd996, type: 2}
+    - rid: 2893981084758310914
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: 6c394fcb9d1961a4bb2f51d0be92744b, type: 2}
+        - {fileID: 11400000, guid: ce87cfe5b9648f146b46602adef8ca5e, type: 2}
+    - rid: 4863668997466357784
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: 1514d4eb5ff5fa14d8e35318074b6960, type: 2}
+        - {fileID: 11400000, guid: 1514d4eb5ff5fa14d8e35318074b6960, type: 2}
+    - rid: 7573584788854931804
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: f9fbf85448a3d3547a8ba086b0ea32b9, type: 2}

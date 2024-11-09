@@ -1,0 +1,4 @@
+var class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer =
+[
+    [ "UpdateCollider", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer.html#a92c0a3deca973da66c59013118b0d007", null ]
+];

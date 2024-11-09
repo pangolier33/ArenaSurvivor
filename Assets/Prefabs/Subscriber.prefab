@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7760853676924873483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7760853676924873480}
+  - component: {fileID: 7760853676924873481}
+  - component: {fileID: 9061073163194198538}
+  m_Layer: 0
+  m_Name: Subscriber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7760853676924873480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760853676924873483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7760853676924873481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760853676924873483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b00f0dd2ed419abce2035c7dea2546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _callbackTemplates:
+  - rid: 1419106209113047826
+  - rid: 1419106209113047827
+  - rid: 1419106209113047828
+  - rid: 1419106209113047829
+  - rid: 1419106209113047830
+  - rid: 1419106209113047831
+  references:
+    version: 2
+    RefIds:
+    - rid: 1419106209113047826
+      type: {class: ShakingCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers, asm: Gameplay}
+      data:
+        _target: {fileID: 0}
+        _duration: 1
+        _strength: 0.5
+        _vibrato: 1
+        _randomness: 0
+        _fadeOut: 1
+        _randomnessMode: 1
+    - rid: 1419106209113047827
+      type: {class: ParticleCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers, asm: Gameplay}
+      data:
+        _prefab: {fileID: 19819134, guid: ad6ba73bf4459c34d87c4d918dc43661, type: 3}
+    - rid: 1419106209113047828
+      type: {class: AudioBossSpawnedCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers.Audio, asm: Gameplay}
+      data:
+        _info:
+          <Volume>k__BackingField: 1
+          <Clip>k__BackingField: {fileID: 8300000, guid: b188a66cff0abff438df61b1d3e807e1, type: 3}
+          <Spatialize>k__BackingField: 1
+          <SpatialBlend>k__BackingField: 0
+          <Pitch>k__BackingField: 1
+    - rid: 1419106209113047829
+      type: {class: AudioEnemyDamagedCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers.Audio, asm: Gameplay}
+      data:
+        _info:
+          <Volume>k__BackingField: 0.2
+          <Clip>k__BackingField: {fileID: 8300000, guid: 8cd77d8e525a27946b8126846b32757b, type: 3}
+          <Spatialize>k__BackingField: 0
+          <SpatialBlend>k__BackingField: 0
+          <Pitch>k__BackingField: 1
+    - rid: 1419106209113047830
+      type: {class: AudioEnemyDiedCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers.Audio, asm: Gameplay}
+      data:
+        _info:
+          <Volume>k__BackingField: 0.2
+          <Clip>k__BackingField: {fileID: 8300000, guid: a550cb02580f00c40b4ba02aeff3acb4, type: 3}
+          <Spatialize>k__BackingField: 0
+          <SpatialBlend>k__BackingField: 0
+          <Pitch>k__BackingField: 1
+    - rid: 1419106209113047831
+      type: {class: AudioPlayerDamagedCallbackSubscriber, ns: Bones.Gameplay.Events.Callbacks.Subscribers.Audio, asm: Gameplay}
+      data:
+        _info:
+          <Volume>k__BackingField: 1
+          <Clip>k__BackingField: {fileID: 8300000, guid: 7c294b30e1cb45642a9780d0a80ac51a, type: 3}
+          <Spatialize>k__BackingField: 1
+          <SpatialBlend>k__BackingField: 0
+          <Pitch>k__BackingField: 1
+--- !u!114 &9061073163194198538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760853676924873483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa0f7f4ca062054796e11603ae7f0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

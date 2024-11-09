@@ -1,0 +1,4 @@
+var class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect =
+[
+    [ "Invoke", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect.html#a210b7867844167b28bced8c00d1bc942", null ]
+];

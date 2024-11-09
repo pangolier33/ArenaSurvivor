@@ -1,0 +1,13 @@
+var namespace_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles =
+[
+    [ "BindProjectileToPlayerPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect" ],
+    [ "CapsuleColliderParticleSynchronizer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer" ],
+    [ "IProjectileHandle", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_i_projectile_handle.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_i_projectile_handle" ],
+    [ "ParticleProjectileDisconnector", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_projectile_disconnector.html", null ],
+    [ "ParticleSynchronizer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_synchronizer.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_synchronizer" ],
+    [ "ProjectileEffectContainer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_effect_container.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_effect_container" ],
+    [ "ProjectileSettings", "struct_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_settings.html", "struct_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_settings" ],
+    [ "TimeProjectileDisconnector", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_time_projectile_disconnector.html", null ],
+    [ "TriggerProjectileActivator", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_trigger_projectile_activator.html", null ],
+    [ "UntriggerProjectileActivator", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_untrigger_projectile_activator.html", null ]
+];

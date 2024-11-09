@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436504450591",
+    "project_id": "bones-survivor",
+    "storage_bucket": "bones-survivor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436504450591:android:0affda4bb3a0270429a72a",
+        "android_client_info": {
+          "package_name": "com.Exhale.BonesSurvival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436504450591-ntsp34mpu2gd0bi9d2soav046iumta6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhEWkXjUEuD-uyx6rpLJmFS0ZKUa-PT5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436504450591-ntsp34mpu2gd0bi9d2soav046iumta6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

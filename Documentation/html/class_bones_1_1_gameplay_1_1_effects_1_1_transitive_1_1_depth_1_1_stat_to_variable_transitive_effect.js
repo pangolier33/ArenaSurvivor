@@ -1,0 +1,4 @@
+var class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_stat_to_variable_transitive_effect =
+[
+    [ "GetValue", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_stat_to_variable_transitive_effect.html#a19e82a5a041f8b9789546ec1922c02a7", null ]
+];

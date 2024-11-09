@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Counter Strike - Branch EVO
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: COUNTER-STRIKE EVO
+  <Effect>k__BackingField: {fileID: 11400000, guid: f3e6a6009b6acf5aeaae52265b84c88e, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: e008dd155ba0d94429e5618a5f2c9efd, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: <color="yellow"><b>COUNTERATTACS</b><color="white">
+      WITH <color="yellow"><b>CHANCE</b><color="white"> WHEN <color="yellow"><b>TAKING
+      DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 26
+        <Builder>k__BackingField:
+          rid: 1998335227511439477
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439478
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 1998335227511439479
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 4863668997466357792
+    <Weight>k__BackingField: 30
+  references:
+    version: 2
+    RefIds:
+    - rid: 1998335227511439477
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.3
+    - rid: 1998335227511439478
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 400
+    - rid: 1998335227511439479
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.65
+        _y: 0.65
+    - rid: 4863668997466357792
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3

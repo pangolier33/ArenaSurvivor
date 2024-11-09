@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a05f45f6a492fbc44231d6c13754f, type: 3}
+  m_Name: _Level 6
+  m_EditorClassIdentifier: 
+  _clampingStats:
+    <Harmony>k__BackingField:
+      _min: 0
+      _max: 0
+    <Armor>k__BackingField:
+      _min: -50
+      _max: 50
+    <CriticalChance>k__BackingField:
+      _min: 0
+      _max: 0
+    <CriticalMultiplier>k__BackingField:
+      _min: 0
+      _max: 0
+  _worldCenter: {x: 1, y: 1}
+  _boostingCurves:
+    <HealthCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <DamageCurve>k__BackingField: {fileID: 11400000, guid: a4991be047ceadc49ad933e375b5afe6, type: 2}
+    <ArmorCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+    <FakeDamageCurve>k__BackingField: {fileID: 11400000, guid: a715de431a2272a479f0d24cc9826416, type: 2}
+  _waves:
+  - {fileID: 11400000, guid: 7bb83a5ff1322774ca9b88972de6e4fd, type: 2}
+  - {fileID: 11400000, guid: c254df141ad9ede4ebd375e6a45107d0, type: 2}
+  - {fileID: 11400000, guid: 80202e5b1710b2f40bd38c2762d6b6b2, type: 2}
+  - {fileID: 11400000, guid: 4e3de2dfaa8df9f4b8ec6a0b943abd77, type: 2}
+  - {fileID: 11400000, guid: f9e9b6525b3980941b99c1d419b132ab, type: 2}
+  - {fileID: 11400000, guid: 5fc32e1fd235f7541985f14ee2a88aa3, type: 2}
+  - {fileID: 11400000, guid: fa911e551c4e70342988363bcfa13cc5, type: 2}
+  - {fileID: 11400000, guid: 88691d3ee7a3ca949b8785b7a14626e4, type: 2}
+  - {fileID: 11400000, guid: ad61200402924d6459cb25503600dc2f, type: 2}
+  - {fileID: 11400000, guid: 91e2743334a983044a26454bc6ebb698, type: 2}
+  - {fileID: 11400000, guid: b82e29568c4dff54a8604365dcd2dadc, type: 2}
+  - {fileID: 11400000, guid: 5cef972220c01e746a070db8c9a27e59, type: 2}

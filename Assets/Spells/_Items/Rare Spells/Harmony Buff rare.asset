@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532ada2f24a243478dada2a75e8e7ab4, type: 3}
+  m_Name: Harmony Buff rare
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: HARMONY
+  <Effect>k__BackingField: {fileID: 11400000, guid: 1d34894e9c03c97189b46940f35ca65a, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 41fd3511c87ec33439a531190849e649, type: 3}
+  _description: increase all regeneration +60%
+  _statsConfiguration:
+    rid: 6756279522050179076
+  _weight: 1.5
+  references:
+    version: 2
+    RefIds:
+    - rid: 6756279522050179076
+      type: {class: SerializableWrappedStatsConfiguration, ns: Bones.Gameplay.Stats.Containers.Builders.Wrappers, asm: Gameplay}
+      data:
+        _pairs:
+        - <Name>k__BackingField: 27
+          <Builder>k__BackingField:
+            rid: 6756279522050179077
+          <Overwrite>k__BackingField: 1
+        - <Name>k__BackingField: 23
+          <Builder>k__BackingField:
+            rid: 6756279522050179079
+          <Overwrite>k__BackingField: 1
+    - rid: 6756279522050179077
+      type: {class: NameBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _name: 5
+    - rid: 6756279522050179079
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 60

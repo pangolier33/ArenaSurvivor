@@ -1,0 +1,4 @@
+var _bind_projectile_to_player_pure_effect_8cs =
+[
+    [ "Bones.Gameplay.Effects.Containers.Projectiles.BindProjectileToPlayerPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect" ]
+];

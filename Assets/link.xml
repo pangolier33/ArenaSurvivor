@@ -1,0 +1,11 @@
+<linker>
+    <!--Preserve types and members in an assembly-->
+    <assembly fullname="UniRx">
+    </assembly>
+    <assembly fullname="Zenject">
+    </assembly>
+    <assembly fullname="Gameplay">
+    </assembly>
+    <assembly fullname="Dice">
+    </assembly>
+</linker>

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Scythe - Branch EVO
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: SCYTHE
+  <Effect>k__BackingField: {fileID: 11400000, guid: 85a4e9cce1199418e8ccd1a6f8ac546d, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: b6bf8162e827eec43922d4da32146a25, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: <color="yellow"><b>SPINS A  SCYHTE</b><color="white">,
+      <color="yellow"><b>FINISH</b><color="white"> ENEMIES WITH<color="yellow"><b>
+      LOW HP</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 8278750380586959076
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959077
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959078
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 8278750380586959079
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 26
+        <Builder>k__BackingField:
+          rid: 8278750380586959080
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 6001431410297798676
+    <Weight>k__BackingField: 30
+  references:
+    version: 2
+    RefIds:
+    - rid: 6001431410297798676
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.1
+    - rid: 8278750380586959076
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: -0.3
+        _y: 1
+    - rid: 8278750380586959077
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 80
+    - rid: 8278750380586959078
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 8278750380586959079
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 8278750380586959080
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.2

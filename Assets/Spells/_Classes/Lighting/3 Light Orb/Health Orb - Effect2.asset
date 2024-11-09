@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c34e10cb5a4c0c836263671f9c7d43, type: 3}
+  m_Name: Health Orb - Effect2
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 7573584788854931531
+  references:
+    version: 2
+    RefIds:
+    - rid: 5582263881124806695
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data: 
+    - rid: 5582263881124806696
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data: 
+    - rid: 7573584788854931531
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931532
+        _name: 23
+        _isCertain: 1
+        _builder:
+          rid: 7573584788854931552
+    - rid: 7573584788854931532
+      type: {class: RepeatByTimeWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931631
+        _name: 13
+    - rid: 7573584788854931552
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 7573584788854931631
+      type: {class: CachePositionDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931750
+        _name: 18
+        _isDynamic: 1
+    - rid: 7573584788854931750
+      type: {class: FilterEnemiesDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931751
+        _distanceLimitName: 16
+    - rid: 7573584788854931751
+      type: {class: RepeatWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931752
+        _countName: 10
+    - rid: 7573584788854931752
+      type: {class: RetrieveWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931753
+        _countName: 11
+    - rid: 7573584788854931753
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931754
+        _name: 20
+        _isCertain: 0
+        _builder:
+          rid: 7573584788854931755
+    - rid: 7573584788854931754
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931756
+        _name: 28
+        _isCertain: 0
+        _builder:
+          rid: 7573584788854931757
+    - rid: 7573584788854931755
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0
+    - rid: 7573584788854931756
+      type: {class: CachePositionDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573584788854931758
+        _name: 19
+        _isDynamic: 0
+    - rid: 7573584788854931757
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0
+    - rid: 7573584788854931758
+      type: {class: ProjectileSpawningEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _prefab: {fileID: 4164961872276364978, guid: 5782047f3600df543903dfe59515b24c, type: 3}
+        _triggeredEffect:
+          rid: 5582263881124806695
+        _spawnedEffect:
+          rid: 5582263881124806696

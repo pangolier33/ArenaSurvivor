@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b16e6fab3abe74aa598dff6b77c235, type: 3}
+  m_Name: Magic Bolt - Effect
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 3020218911449677827
+  _useMulticast: 1
+  _useCount: 0
+  _spawnCountAsFan: 1
+  _searchEnemies: 1
+  _multicastDelay: 0.1
+  _prefab: {fileID: 1302473625748423415, guid: b684cb6106909014d983ac1e686d6620, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020218911449677827
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}

@@ -1,0 +1,12 @@
+{
+  "name": "priv.precision-cats.asset-variants",
+  "version": "1.0.0",
+  "displayName": "Asset Variants",
+   "unity": "2017.1",
+   "samples": [
+  {
+	  "name": "Asset Variants Examples",
+	  "path": "Asset Variants Examples~"
+  }
+  ]
+}

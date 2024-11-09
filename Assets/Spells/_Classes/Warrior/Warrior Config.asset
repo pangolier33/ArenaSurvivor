@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac1472a64d04a76b3640477b8b11b18, type: 3}
+  m_Name: Warrior Config
+  m_EditorClassIdentifier: 
+  _baseBranch:
+    rid: 7573584788854931812
+  _commonBranches:
+  - rid: 4863668997466357779
+  - rid: 4863668997466357780
+  _ultBranch:
+    rid: 4863668997466357781
+  <Name>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 21300000, guid: 63db29d50fa24454582b441afdf008bb, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4863668997466357779
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: c96e9177655700444a0757a434f2ad72, type: 2}
+        - {fileID: 11400000, guid: deb8677d16bc2a42faa9cb0d49f6ded1, type: 2}
+    - rid: 4863668997466357780
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: b5733e3a973f6591a9e8b6eb86634ab7, type: 2}
+        - {fileID: 11400000, guid: d94b6dfb21d47944abae5390f6c36b24, type: 2}
+    - rid: 4863668997466357781
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: 5fc09b1448f1d8a3db61a943daadea4e, type: 2}
+        - {fileID: 11400000, guid: ee6e5150166c1a24a9595a047ea65f39, type: 2}
+    - rid: 7573584788854931812
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 349e0df7b6da487e79d3d57b3876d805, type: 2}

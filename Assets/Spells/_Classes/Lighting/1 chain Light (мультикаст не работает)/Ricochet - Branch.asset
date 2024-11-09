@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Ricochet - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: RICOCHET
+  <Effect>k__BackingField: {fileID: 11400000, guid: 694e8476eb6f7a24ca4c94ec28bb0237, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 6096cb834bfbfc9469f33f559303286e, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: <color="yellow"><b>RICOCHET</b><color="white">
+      SHIELD <color="yellow"><b>RESTORE ARMOR</b><color="white"> AND DEAL <color="yellow"><b>DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 7573584555155390558
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 7573584555155390468
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573584555155390559
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 7573584555155390560
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 7573584555155390561
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 7573584766199399308
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 7573584766199399321
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 7573584766199399337
+    <Weight>k__BackingField: 5
+  - <Description>k__BackingField: <color="yellow"><b>RICOCHET</b><color="white">
+      SHIELD <color="yellow"><b>RESTORE ARMOR</b><color="white"> AND DEAL <color="yellow"><b>DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439368
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 1998335227511439369
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439370
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439371
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439372
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439373
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439374
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 1998335227511439375
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: <color="yellow"><b>RICOCHET</b><color="white">
+      SHIELD <color="yellow"><b>RESTORE ARMOR</b><color="white"> AND DEAL <color="yellow"><b>DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439376
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 1998335227511439377
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439378
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439379
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439380
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439381
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439382
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 1998335227511439383
+    <Weight>k__BackingField: 12
+  - <Description>k__BackingField: <color="yellow"><b>RICOCHET</b><color="white">
+      SHIELD <color="yellow"><b>RESTORE ARMOR</b><color="white"> AND DEAL <color="yellow"><b>DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439384
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 1998335227511439385
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439386
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439387
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439388
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439389
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439390
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 1998335227511439391
+    <Weight>k__BackingField: 14
+  - <Description>k__BackingField: <color="yellow"><b>RICOCHET</b><color="white">
+      SHIELD <color="yellow"><b>RESTORE ARMOR</b><color="white"> AND DEAL <color="yellow"><b>DAMAGE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439392
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 1998335227511439393
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439394
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439395
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439396
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439397
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439398
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 29
+        <Builder>k__BackingField:
+          rid: 1998335227511439399
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 1998335227511439368
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.7
+    - rid: 1998335227511439369
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439370
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 1998335227511439371
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 200
+    - rid: 1998335227511439372
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439373
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 1998335227511439374
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439375
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 1998335227511439376
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.6
+    - rid: 1998335227511439377
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439378
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 1998335227511439379
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 200
+    - rid: 1998335227511439380
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.5
+    - rid: 1998335227511439381
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 1998335227511439382
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439383
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 1998335227511439384
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.5
+    - rid: 1998335227511439385
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439386
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 7
+    - rid: 1998335227511439387
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 200
+    - rid: 1998335227511439388
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.5
+    - rid: 1998335227511439389
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 1998335227511439390
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439391
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 1998335227511439392
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.4
+    - rid: 1998335227511439393
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439394
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 8
+    - rid: 1998335227511439395
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 200
+    - rid: 1998335227511439396
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.5
+    - rid: 1998335227511439397
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 1998335227511439398
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439399
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 7573584555155390468
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 7573584555155390558
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.8
+    - rid: 7573584555155390559
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 7573584555155390560
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 50
+    - rid: 7573584555155390561
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 7573584766199399308
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 6
+    - rid: 7573584766199399321
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 20
+    - rid: 7573584766199399337
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0

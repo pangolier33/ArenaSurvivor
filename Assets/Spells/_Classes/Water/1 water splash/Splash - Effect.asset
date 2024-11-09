@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c34e10cb5a4c0c836263671f9c7d43, type: 3}
+  m_Name: Splash - Effect
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 8278750152772550693
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020218861903413251
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data: 
+    - rid: 3020218861903413252
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data: 
+    - rid: 7573585238868361257
+      type: {class: WaitDTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573585238868361258
+        _name: 20
+    - rid: 7573585238868361258
+      type: {class: ProjectileSpawningEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _prefab: {fileID: 6673035394940691273, guid: e70ec08342b6a4d4d80e17a4d77f992d, type: 3}
+        _triggeredEffect:
+          rid: 3020218861903413251
+        _spawnedEffect:
+          rid: 3020218861903413252
+    - rid: 8278750152772550693
+      type: {class: VectorCustomSetVariableEffectWrapper, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550707
+        _id: side
+        _value: {x: 1, y: 1}
+    - rid: 8278750152772550707
+      type: {class: VectorCustomSetVariableEffectWrapper, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550742
+        _id: side_multiplier
+        _value: {x: 1, y: 1}
+    - rid: 8278750152772550742
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550743
+        _name: 23
+        _isCertain: 1
+        _builder:
+          rid: 8278750152772550760
+    - rid: 8278750152772550743
+      type: {class: RepeatByTimeWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550761
+        _name: 13
+    - rid: 8278750152772550760
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.25
+    - rid: 8278750152772550761
+      type: {class: OverwriteStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550762
+        _name: 20
+        _isCertain: 0
+        _builder:
+          rid: 8278750152772550778
+    - rid: 8278750152772550762
+      type: {class: RepeatWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550763
+        _countName: 10
+    - rid: 8278750152772550763
+      type: {class: RepeatWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550764
+        _countName: 11
+    - rid: 8278750152772550764
+      type: {class: CompositeEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _effects:
+        - rid: 8278750152772550806
+        - rid: 8278750152772550795
+    - rid: 8278750152772550778
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0
+    - rid: 8278750152772550795
+      type: {class: ValueAddStatPEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _sourceName: 20
+        _operandName: 23
+    - rid: 8278750152772550806
+      type: {class: VectorMultiplyingTransitiveEffect, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550807
+        _firstID: side
+        _secondID: side_multiplier
+        _resultID: side_result
+    - rid: 8278750152772550807
+      type: {class: VectorUpdateVariableTransitiveEffect, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750152772550810
+        _sourceId: side
+        _providerId: side_result
+    - rid: 8278750152772550810
+      type: {class: VectorMultiplyDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 7573585238868361257
+        _id: size
+        _name: 24
+        _otherId: side_result

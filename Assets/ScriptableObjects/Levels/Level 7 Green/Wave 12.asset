@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664fc2284c7c4a659f60ee993ffcb911, type: 3}
+  m_Name: Wave 12
+  m_EditorClassIdentifier: 
+  _type: 3
+  _durationInMinutes: 0.75
+  _spawners:
+  - Enabled: 0
+    _prefab: {fileID: 3746605496199866472, guid: 22a57279437c66e408672c539d2664c0, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 43741501e658fa74d9acffca88eb4f80, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541908
+    _positionResolver:
+      rid: 6421947918594605231
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 20
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 7281212652604919498, guid: cbd5ee29e7ede374ab280f269107720b, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 1c29898511d7223479a07738d7031ffd, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541911
+    _positionResolver:
+      rid: 3941688765126541912
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 5
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 7144316832041502578, guid: ef7172159114db84c9ca3779f3dbcac7, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: bb6768e73c6f74e478e9fa2cbc73be05, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541974
+    _positionResolver:
+      rid: 3941688765126541975
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 5
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 3014158992934532282, guid: 9d25801a8a15c8b4b82159bc0bc0eb9c, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 900c010286998b144acb66ee607634d5, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541972
+    _positionResolver:
+      rid: 3941688765126541973
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 20
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 1428767205442423016, guid: 9029d6aece622434f89f0eff18e93d65, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 3e205e01c5c672d488eb2324b62f09e7, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541970
+    _positionResolver:
+      rid: 3941688765126541971
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 5
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 1
+    _prefab: {fileID: 4490662107094180675, guid: 7ee1f3a2f23ff434082243c8814f0f53, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 13727775bec939d45a7462ca2de16d2e, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541968
+    _positionResolver:
+      rid: 3941688765126541969
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 70
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 3816485927643568454, guid: dab0280909387f74f97764f018117166, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: f87bc3067c2a8f446ba3a008521fcf6e, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 3941688765126541966
+    _positionResolver:
+      rid: 3941688765126541967
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 5
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 7281212652604919498, guid: 661256fb640a44d4285134058dbc5ef0, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 91cf2b0d7029b1d44b84226d54093ac9, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 9c9af315d0d2a354cbad82072b2c6ead, type: 2}
+    _amountResolver:
+      rid: 2700322704445931932
+    _positionResolver:
+      rid: 2700322704445931933
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 5
+    _origin: 1
+    _despawningDistance: 6.5
+  - Enabled: 0
+    _prefab: {fileID: 3583395479184136749, guid: f6fcfa20f06a84b48815bd76c816d3c1, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 498b8e5374b2ef341bb509f898214f82, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 5c8f7eb7693b3794782e4b96e2e12959, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 28267093760d99249adb1150cd51a795, type: 2}
+    _amountResolver:
+      rid: 3941688765126541964
+    _positionResolver:
+      rid: 3941688765126541965
+    _spawningDelay: 1
+    _isRepeating: 0
+    _limit: 2
+    _origin: 1
+    _despawningDistance: 100
+  - Enabled: 0
+    _prefab: {fileID: 116847410188296175, guid: a81b293eedad36d498bfde8c9152ee1f, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 498b8e5374b2ef341bb509f898214f82, type: 2}
+    _statsConfig: {fileID: 11400000, guid: d13036350937e764e8c2ae16ac1d1ba8, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 28267093760d99249adb1150cd51a795, type: 2}
+    _amountResolver:
+      rid: 3941688765126541961
+    _positionResolver:
+      rid: 3941688765126541962
+    _spawningDelay: 1
+    _isRepeating: 0
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 100
+  - Enabled: 0
+    _prefab: {fileID: 8543864472334189653, guid: 083d9308108a75745bd3d619ddf1b3e2, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 876e621bee1a508488545705d5b51ab5, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 33256503f87426b45b7f95f059242a17, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 28267093760d99249adb1150cd51a795, type: 2}
+    _amountResolver:
+      rid: 3941688765126541959
+    _positionResolver:
+      rid: 3941688765126541960
+    _spawningDelay: 2
+    _isRepeating: 0
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 100
+  - Enabled: 0
+    _prefab: {fileID: 3588469810824827817, guid: e0803fb72a9993248b7cb3733c9e8710, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 876e621bee1a508488545705d5b51ab5, type: 2}
+    _statsConfig: {fileID: 11400000, guid: f6286df8f23a3ef4683207a958caece7, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 28267093760d99249adb1150cd51a795, type: 2}
+    _amountResolver:
+      rid: 3941688765126541954
+    _positionResolver:
+      rid: 3941688765126541955
+    _spawningDelay: 2
+    _isRepeating: 0
+    _limit: 4
+    _origin: 1
+    _despawningDistance: 100
+  - Enabled: 1
+    _prefab: {fileID: 3639762587892998673, guid: 5f0a996bed12aa1418f8012cbe99a4ce, type: 3}
+    _dropConfig: {fileID: 11400000, guid: c3d3ea9d9e338554f801624b5dd90f21, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 3b079b3b890926547a3da1f6a3410aec, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 2b964ce9b7dec3147a3f0c74975379dc, type: 2}
+    _amountResolver:
+      rid: 3941688765126541956
+    _positionResolver:
+      rid: 3941688765126541957
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 4
+    _origin: 1
+    _despawningDistance: 12
+  - Enabled: 1
+    _prefab: {fileID: 4150611200167287086, guid: 6427afab3ccb0114296fddc7e7b7005d, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 6ebf74ad2dd4ffb4ba35211b6d895f52, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 356a875c778afe0469d13b84c6f7b525, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 1d629206940403045b743a7de3697df1, type: 2}
+    _amountResolver:
+      rid: 3941688765126541952
+    _positionResolver:
+      rid: 3941688765126541953
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 4903547707661507990, guid: b30f1da7e8cdba3459f8ea9c5c56393c, type: 3}
+    _dropConfig: {fileID: 11400000, guid: a183ef06ea1baf849bc3d02629fe481f, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 6cd7b492bdbba884db24664140279aac, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 1d629206940403045b743a7de3697df1, type: 2}
+    _amountResolver:
+      rid: 3941688765126541950
+    _positionResolver:
+      rid: 3941688765126541951
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 2
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 4503002335372274261, guid: 88bd35d2e77a0594c89950ce57fe4724, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 46090298c3f97d846975bdc5c7445501, type: 2}
+    _statsConfig: {fileID: 11400000, guid: e55a806a933a5a44cb30de5d223b02e2, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 2b964ce9b7dec3147a3f0c74975379dc, type: 2}
+    _amountResolver:
+      rid: 3941688780054069248
+    _positionResolver:
+      rid: 3941688765126541909
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 4
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 4150611200167287086, guid: 55b354c6582e01447bc97eab307b3112, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 46090298c3f97d846975bdc5c7445501, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 7540515b4126a0e46a05df7f9f75ff3d, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 1d629206940403045b743a7de3697df1, type: 2}
+    _amountResolver:
+      rid: 2700322704445931860
+    _positionResolver:
+      rid: 2700322704445931861
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 4150611200167287086, guid: 8003aa06af81c9f4d87b60b164e6e4d6, type: 3}
+    _dropConfig: {fileID: 11400000, guid: a183ef06ea1baf849bc3d02629fe481f, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 6cd7b492bdbba884db24664140279aac, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 1d629206940403045b743a7de3697df1, type: 2}
+    _amountResolver:
+      rid: 2700322704445931896
+    _positionResolver:
+      rid: 2700322704445931897
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 8766526087870720170, guid: 9d6c6672df0f7d84a9b04b5e127b9d8d, type: 3}
+    _dropConfig: {fileID: 11400000, guid: c3d3ea9d9e338554f801624b5dd90f21, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 53ec11ba6bd12b644b5c470125afcf66, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 2b964ce9b7dec3147a3f0c74975379dc, type: 2}
+    _amountResolver:
+      rid: 3941688765126541948
+    _positionResolver:
+      rid: 3941688765126541949
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 2
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 5101102025129911295, guid: e6341d85da9032d489db66ec4ffdae4b, type: 3}
+    _dropConfig: {fileID: 11400000, guid: c3d3ea9d9e338554f801624b5dd90f21, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 53ec11ba6bd12b644b5c470125afcf66, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 2b964ce9b7dec3147a3f0c74975379dc, type: 2}
+    _amountResolver:
+      rid: 3941688765126541946
+    _positionResolver:
+      rid: 3941688765126541947
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 2
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 1055557098225926897, guid: 4066f6be444808a49b16a95189151edb, type: 3}
+    _dropConfig: {fileID: 11400000, guid: c3d3ea9d9e338554f801624b5dd90f21, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 53ec11ba6bd12b644b5c470125afcf66, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 2b964ce9b7dec3147a3f0c74975379dc, type: 2}
+    _amountResolver:
+      rid: 3941688765126541942
+    _positionResolver:
+      rid: 3941688765126541943
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 2
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 1
+    _prefab: {fileID: 6673957805034962273, guid: 51a3cf5fc38a32d43bab782e3166ffa6, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 2d156a047fe40ef4d9a738f2c48d5391, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 597ce9e885b549b4b81993bff83aa0f3, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 1d629206940403045b743a7de3697df1, type: 2}
+    _amountResolver:
+      rid: 2700322704445931748
+    _positionResolver:
+      rid: 2700322704445931749
+    _spawningDelay: 0.5
+    _isRepeating: 1
+    _limit: 3
+    _origin: 1
+    _despawningDistance: 15
+  - Enabled: 0
+    _prefab: {fileID: 5910789606214747445, guid: 0e17899ba73578a48beb6aee27656670, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 01d329e9e509c4b49910f45f4b359dbb, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 3de63be03f5b5a94f8c7e41d0ab1fdba, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 8516df947279cb14f98262d37267696a, type: 2}
+    _amountResolver:
+      rid: 3941688765126541932
+    _positionResolver:
+      rid: 3941688765126541933
+    _spawningDelay: 1
+    _isRepeating: 0
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 200
+  - Enabled: 1
+    _prefab: {fileID: -4101609374780510312, guid: db07b7d165f8c7d4c96314837352ebbe, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 3cd0b8f097fc24a448bfb9766ab7ee47, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 356a875c778afe0469d13b84c6f7b525, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: ed5ae1bbd1a70634b824ab5cfa0cec15, type: 2}
+    _amountResolver:
+      rid: 1830821699224338466
+    _positionResolver:
+      rid: 1830821699224338467
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 9
+  - Enabled: 0
+    _prefab: {fileID: 4150611200167287086, guid: 691a5067fc3a18c4bb964cb82d767802, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 2d156a047fe40ef4d9a738f2c48d5391, type: 2}
+    _statsConfig: {fileID: 11400000, guid: 7540515b4126a0e46a05df7f9f75ff3d, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 7d6d5a0eec8b343499807347c2f33d92, type: 2}
+    _amountResolver:
+      rid: 2893980698242711552
+    _positionResolver:
+      rid: 2893980698242711553
+    _spawningDelay: 1
+    _isRepeating: 1
+    _limit: 1
+    _origin: 1
+    _despawningDistance: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 1830821699224338466
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 1}
+    - rid: 1830821699224338467
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 3, y: 4}
+    - rid: 2700322704445931748
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 2, y: 6}
+    - rid: 2700322704445931749
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 7, y: 14}
+    - rid: 2700322704445931860
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 3}
+    - rid: 2700322704445931861
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 14}
+    - rid: 2700322704445931896
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 3}
+    - rid: 2700322704445931897
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 14}
+    - rid: 2700322704445931932
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 30, y: 50}
+    - rid: 2700322704445931933
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 2893980698242711552
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 1}
+    - rid: 2893980698242711553
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 10, y: 15}
+    - rid: 3941688765126541908
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 5, y: 10}
+    - rid: 3941688765126541909
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 15}
+    - rid: 3941688765126541911
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 15, y: 20}
+    - rid: 3941688765126541912
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688765126541932
+      type: {class: ConstantAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _amount: 1
+    - rid: 3941688765126541933
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 25, y: 40}
+    - rid: 3941688765126541942
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}
+    - rid: 3941688765126541943
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 14}
+    - rid: 3941688765126541946
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}
+    - rid: 3941688765126541947
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 14}
+    - rid: 3941688765126541948
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}
+    - rid: 3941688765126541949
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 14}
+    - rid: 3941688765126541950
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}
+    - rid: 3941688765126541951
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 7, y: 14}
+    - rid: 3941688765126541952
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}
+    - rid: 3941688765126541953
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 7, y: 14}
+    - rid: 3941688765126541954
+      type: {class: ConstantAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _amount: 1
+    - rid: 3941688765126541955
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 6}
+    - rid: 3941688765126541956
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 3}
+    - rid: 3941688765126541957
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 10}
+    - rid: 3941688765126541959
+      type: {class: ConstantAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _amount: 1
+    - rid: 3941688765126541960
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 6}
+    - rid: 3941688765126541961
+      type: {class: ConstantAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _amount: 1
+    - rid: 3941688765126541962
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 6}
+    - rid: 3941688765126541964
+      type: {class: ConstantAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _amount: 1
+    - rid: 3941688765126541965
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 6, y: 6}
+    - rid: 3941688765126541966
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 10, y: 15}
+    - rid: 3941688765126541967
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688765126541968
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 10, y: 15}
+    - rid: 3941688765126541969
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688765126541970
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 10, y: 15}
+    - rid: 3941688765126541971
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688765126541972
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 5, y: 10}
+    - rid: 3941688765126541973
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688765126541974
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 10, y: 15}
+    - rid: 3941688765126541975
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4, y: 6}
+    - rid: 3941688780054069248
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 3}
+    - rid: 6421947918594605231
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 3, y: 5}

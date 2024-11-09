@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Health Orb - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: HEALTH ORB
+  <Effect>k__BackingField: {fileID: 11400000, guid: f7d74c137b22d40af932829c5916aa74, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 62d7bd35601901e4e9a2438ad29b7e18, type: 3}
+  _spellSettings:
+  - <MapBuilder>k__BackingField:
+      _pairs:
+      - <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 7573584788854931477
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573584788854931479
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 7573584788854931478
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 7573584788854931667
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 0
+        <Builder>k__BackingField:
+          rid: 7573584788854931785
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 7573584841185165341
+        <Overwrite>k__BackingField: 0
+    <Description>k__BackingField: "THROWS A<color=\"yellow\"><b> BALL </b><color=\"white\">
+      THAT <color=\"yellow\"><b>COME BACK </b><color=\"white\">  AND <color=\"yellow\"><b>HEALS\r"
+    <Weight>k__BackingField: 5
+  - <MapBuilder>k__BackingField:
+      _pairs:
+      - <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439412
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439413
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439414
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439415
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 0
+        <Builder>k__BackingField:
+          rid: 1998335227511439416
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439417
+        <Overwrite>k__BackingField: 0
+    <Description>k__BackingField: "THROWS A<color=\"yellow\"><b> BALL </b><color=\"white\">
+      THAT <color=\"yellow\"><b>COME BACK </b><color=\"white\">  AND <color=\"yellow\"><b>HEALS\r"
+    <Weight>k__BackingField: 10
+  - <MapBuilder>k__BackingField:
+      _pairs:
+      - <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439418
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439419
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439420
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439421
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 0
+        <Builder>k__BackingField:
+          rid: 1998335227511439422
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439423
+        <Overwrite>k__BackingField: 0
+    <Description>k__BackingField: An orb that heals you for every enemy that is attacked
+    <Weight>k__BackingField: 12
+  - <MapBuilder>k__BackingField:
+      _pairs:
+      - <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439424
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439425
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439426
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439427
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 0
+        <Builder>k__BackingField:
+          rid: 1998335227511439428
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439429
+        <Overwrite>k__BackingField: 0
+    <Description>k__BackingField: An orb that heals you for every enemy that is attacked
+    <Weight>k__BackingField: 14
+  - <MapBuilder>k__BackingField:
+      _pairs:
+      - <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439430
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439431
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 1998335227511439432
+        <Overwrite>k__BackingField: 0
+      - <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 1998335227511439433
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 0
+        <Builder>k__BackingField:
+          rid: 1998335227511439434
+        <Overwrite>k__BackingField: 1
+      - <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439435
+        <Overwrite>k__BackingField: 0
+    <Description>k__BackingField: "THROWS A<color=\"yellow\"><b> BALL </b><color=\"white\">
+      THAT <color=\"yellow\"><b>COME BACK </b><color=\"white\">  AND <color=\"yellow\"><b>HEALS\r"
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 1998335227511439412
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.6
+    - rid: 1998335227511439413
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 1998335227511439414
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439415
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.05
+    - rid: 1998335227511439416
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 15
+    - rid: 1998335227511439417
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 100
+    - rid: 1998335227511439418
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.3
+    - rid: 1998335227511439419
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 1998335227511439420
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439421
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.05
+    - rid: 1998335227511439422
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 15
+    - rid: 1998335227511439423
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 120
+    - rid: 1998335227511439424
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.2
+    - rid: 1998335227511439425
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 1998335227511439426
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439427
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.05
+    - rid: 1998335227511439428
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 20
+    - rid: 1998335227511439429
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 160
+    - rid: 1998335227511439430
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 1998335227511439431
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439432
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439433
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.05
+    - rid: 1998335227511439434
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 20
+    - rid: 1998335227511439435
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 200
+    - rid: 7573584788854931477
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 7573584788854931478
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 7573584788854931479
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 7573584788854931667
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.05
+    - rid: 7573584788854931785
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 7573584841185165341
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 80

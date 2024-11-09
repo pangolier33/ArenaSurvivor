@@ -1,0 +1,10 @@
+{
+  "displayName": "UI Translucent Image",
+  "keywords": ["UI", "PCG", "Procedural Geometry"],
+  "name": "priv.le-tai.translucent-image",
+  "unity": "2017.1",
+  "version": "3.4.0",
+  "description": "Translucent Image helps you build beautiful blurred background UI, like those found in iOS/macOS/Windows 10 Fluent design.Unlike many other background blurring solutions, Translucent Image employs an extremely efficient algorithm, so your user can enjoy higher framerates and longer battery life. Not only that, it can produce a deliciously smooth effect when you tune the blur up high, unlike many others that would degrade to ugly blocky artifacts.",
+  "documentation": "https://leloctai.com/asset/translucentimage/docs/",
+  "author": "Paid"
+}

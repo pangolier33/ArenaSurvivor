@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Chains - Branch new
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: CHAINS
+  <Effect>k__BackingField: {fileID: 11400000, guid: caeb53a17b89d024991bc13323563d62, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 615d8dfb54ada1e4e95f8d7403a1c43d, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: <color="yellow"><b>SWINGS TWO CHAINS</b><color="white">
+      THAT PUSH ENEMIES
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586959061
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586959062
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 8278750380586959063
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 8278750380586959064
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 3020218879754371074
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020218879754371076
+    <Weight>k__BackingField: 5
+  - <Description>k__BackingField: <color="yellow"><b>SWINGS TWO CHAINS</b><color="white">
+      THAT PUSH ENEMIES
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439500
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439501
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439502
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439503
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 3020218932318699525
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020218932318699529
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: <color="yellow"><b>SWINGS TWO CHAINS</b><color="white">
+      THAT PUSH ENEMIES
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439518
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439519
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439520
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439521
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 3020218932318699526
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020218932318699530
+    <Weight>k__BackingField: 12
+  - <Description>k__BackingField: <color="yellow"><b>SWINGS TWO CHAINS</b><color="white">
+      THAT PUSH ENEMIES
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439512
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439513
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439514
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439515
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 3020218932318699527
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020218932318699531
+    <Weight>k__BackingField: 14
+  - <Description>k__BackingField: <color="yellow"><b>SWINGS TWO CHAINS</b><color="white">
+      THAT PUSH ENEMIES
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 1998335227511439506
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 1998335227511439507
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 1998335227511439508
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 1998335227511439509
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 15
+        <Builder>k__BackingField:
+          rid: 3020218932318699528
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020218932318699532
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 1998335227511439500
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 1998335227511439501
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 7
+    - rid: 1998335227511439502
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 1998335227511439503
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439506
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 1998335227511439507
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2.5
+    - rid: 1998335227511439508
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 1998335227511439509
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439512
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 1998335227511439513
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3.75
+    - rid: 1998335227511439514
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 1998335227511439515
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 1998335227511439518
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 1998335227511439519
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 1998335227511439520
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 1998335227511439521
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 3020218879754371074
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020218879754371076
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 3020218932318699525
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020218932318699526
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020218932318699527
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020218932318699528
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020218932318699529
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 3020218932318699530
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 3020218932318699531
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 3020218932318699532
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 8278750380586959061
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 300
+    - rid: 8278750380586959062
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 10
+    - rid: 8278750380586959063
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.8
+    - rid: 8278750380586959064
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1

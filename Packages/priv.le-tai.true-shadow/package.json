@@ -1,0 +1,15 @@
+{
+  "displayName": "UI True Shadow",
+  "keywords": ["UI", "PCG", "Procedural Geometry"],
+  "name": "priv.le-tai.true-shadow",
+  "unity": "2017.1",
+  "version": "0.9.0",
+  "description": "Custom Geomtry for uGUI to display shadows for UI.Graphic-components",
+  "samples":[
+  {
+	"displayName": "Demo",
+	"path": "Demo~"
+  }
+  ],
+    "author": "Paid"
+}

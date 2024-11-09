@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac1472a64d04a76b3640477b8b11b18, type: 3}
+  m_Name: Spirits
+  m_EditorClassIdentifier: 
+  _baseBranch:
+    rid: 7573584788854931804
+  _commonBranches:
+  - rid: 2893981084758310912
+  - rid: 2893981084758310914
+  _ultBranch:
+    rid: 4863668997466357784
+  <Name>k__BackingField: 12
+  <Icon>k__BackingField: {fileID: 21300000, guid: 799691dbbe63b214b8ac8b82afbf6198, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2893981084758310912
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: 310e41e9079eec6438b0889115e0b2cc, type: 2}
+        - {fileID: 11400000, guid: 9db570e35c61ec144915e9d1f9e406ec, type: 2}
+    - rid: 2893981084758310914
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: fa870ab149fd36ae2b5eb0fd00ee4059, type: 2}
+        - {fileID: 11400000, guid: d8c7c9420e90e4743882c600adb0f479, type: 2}
+    - rid: 4863668997466357784
+      type: {class: EvoSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _branches:
+        - {fileID: 11400000, guid: 644e918f47ad81bc98d90c894d4d6dff, type: 2}
+        - {fileID: 11400000, guid: b98949f9baa490044bf6e36b9f852471, type: 2}
+    - rid: 7573584788854931804
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 1da702d55a617aaa2ab084f672eae97f, type: 2}

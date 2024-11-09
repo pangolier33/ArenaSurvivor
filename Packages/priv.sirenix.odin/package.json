@@ -1,0 +1,16 @@
+{
+  "displayName": "Odin Inspector & Serializer",
+  "keywords": ["odin", "inspector", "sirialization"],
+  "name": "priv.sirenix.odin",
+  "unity": "2017.1",
+  "version": "3.0.7",
+  
+  "samples":[
+  {
+	"displayName": "Odin Inspector",
+	"description": "IMPORTANT! Should be imported to project",
+	"path": "Sirenix~/Odin Inspector"
+  }
+  ],
+  "author": "Paid"
+}

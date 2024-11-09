@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d571ef11c36499bba15a2b21fc6dfcb, type: 3}
+  m_Name: Basic Spell - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: 
+  <Effect>k__BackingField: {fileID: 11400000, guid: 5e454790d5b641128590b886fde62e4d, type: 2}
+  <Icon>k__BackingField: {fileID: 0}
+  _description: 
+  _statsConfiguration:
+    rid: 6756279133606772739
+  _weight: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 6756279133606772739
+      type: {class: SerializableWrappedStatsConfiguration, ns: Bones.Gameplay.Stats.Containers.Builders.Wrappers, asm: Gameplay}
+      data:
+        _pairs:
+        - <Overwrite>k__BackingField: 0
+          <Name>k__BackingField: 6
+          <Builder>k__BackingField:
+            rid: 6756279133606772743
+        - <Overwrite>k__BackingField: 0
+          <Name>k__BackingField: 16
+          <Builder>k__BackingField:
+            rid: 6756279133606772742
+        - <Overwrite>k__BackingField: 0
+          <Name>k__BackingField: 13
+          <Builder>k__BackingField:
+            rid: 6756279133606772741
+        - <Overwrite>k__BackingField: 0
+          <Name>k__BackingField: 11
+          <Builder>k__BackingField:
+            rid: 6756279133606772740
+        - <Overwrite>k__BackingField: 0
+          <Name>k__BackingField: 15
+          <Builder>k__BackingField:
+            rid: 6756279133606772751
+    - rid: 6756279133606772740
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 6756279133606772741
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 6756279133606772742
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 6756279133606772743
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 250
+    - rid: 6756279133606772751
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.09
+        _y: 0.09

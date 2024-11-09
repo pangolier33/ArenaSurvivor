@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3358427093349036036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3265513712028573168}
+  - component: {fileID: -2653172589253106548}
+  m_Layer: 0
+  m_Name: Skill WildMagic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3265513712028573168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358427093349036036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2653172589253106548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358427093349036036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: badb1737798b7bb4f805116ca6df8e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skillModel: {fileID: 11400000, guid: c7eaa5567f8c59d4798283085e7e5f35, type: 2}
+  _needTarget: 0
+  OnCast:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionCheck:
+    enabled: 1
+    debugging: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 959
+    colliders:
+    - rid: 1000
+  explosionParticle: {fileID: 5616010283390658767, guid: 0c355c9f7f74dc14c8f6a8b8aede8a3b, type: 3}
+  ExplosionModifier: 30
+  ExplosionModifierCap: 5
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: VirtualCapsuleCollider2D, ns: Physical, asm: Scripts}
+      data:
+        gizmo: 1
+        transform: {fileID: 3265513712028573168}
+        cacheSize: 100
+        offset: {x: 0, y: 0}
+        size: {x: 4.6, y: 4.6}
+        direction: 0
+        castType: 1

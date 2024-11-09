@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Self Damage - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: SELF-DAMAGE
+  <Effect>k__BackingField: {fileID: 11400000, guid: 0ba219b8301bf9e4a967815f475555e2, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: bb4898e9698a2a345b75c4d97d27359f, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: CREATE A <color="yellow"><b>FIELD</b><color="white">
+      WHERE ENEMY <color="yellow"><b>DAMAGE THEMSELVE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 3020219474474172426
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 7573584555155390739
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 7573584555155390740
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 7573584555155390741
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020219474474172423
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 3020219474474172424
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219474474172425
+    <Weight>k__BackingField: 5
+  - <Description>k__BackingField: CREATE A <color="yellow"><b>FIELD</b><color="white">
+      WHERE ENEMY <color="yellow"><b>DAMAGE THEMSELVE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 3020219474474172427
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 3020219474474172428
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 3020219474474172429
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020219474474172430
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020219474474172431
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 3020219474474172432
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219474474172433
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: CREATE A <color="yellow"><b>FIELD</b><color="white">
+      WHERE ENEMY <color="yellow"><b>DAMAGE THEMSELVE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 3020219474474172434
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 3020219474474172435
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 3020219474474172436
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020219474474172437
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020219474474172438
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 3020219474474172439
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219474474172440
+    <Weight>k__BackingField: 12
+  - <Description>k__BackingField: CREATE A <color="yellow"><b>FIELD</b><color="white">
+      WHERE ENEMY <color="yellow"><b>DAMAGE THEMSELVE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 3020219474474172441
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 3020219474474172442
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 3020219474474172443
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020219474474172444
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020219474474172445
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 3020219474474172446
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219474474172447
+    <Weight>k__BackingField: 14
+  - <Description>k__BackingField: CREATE A <color="yellow"><b>FIELD</b><color="white">
+      WHERE ENEMY <color="yellow"><b>DAMAGE THEMSELVE
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 3020219474474172448
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 3020219474474172449
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 11
+        <Builder>k__BackingField:
+          rid: 3020219474474172450
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 16
+        <Builder>k__BackingField:
+          rid: 3020219474474172451
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 17
+        <Builder>k__BackingField:
+          rid: 3020219474474172452
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 3020219474474172453
+      - <Overwrite>k__BackingField: 1
+        <Name>k__BackingField: 23
+        <Builder>k__BackingField:
+          rid: 3020219474474172454
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020219474474172423
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 3020219474474172424
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.025
+    - rid: 3020219474474172425
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.9
+    - rid: 3020219474474172426
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219474474172427
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219474474172428
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020219474474172429
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 3020219474474172430
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172431
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020219474474172432
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.025
+    - rid: 3020219474474172433
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.9
+    - rid: 3020219474474172434
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219474474172435
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 3020219474474172436
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 3020219474474172437
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172438
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 3020219474474172439
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.025
+    - rid: 3020219474474172440
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.9
+    - rid: 3020219474474172441
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219474474172442
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 3
+    - rid: 3020219474474172443
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 3020219474474172444
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172445
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172446
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.025
+    - rid: 3020219474474172447
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.9
+    - rid: 3020219474474172448
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.5
+    - rid: 3020219474474172449
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 2
+    - rid: 3020219474474172450
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 3020219474474172451
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172452
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5
+    - rid: 3020219474474172453
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.025
+    - rid: 3020219474474172454
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 0.9
+    - rid: 7573584555155390739
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 7573584555155390740
+      type: {class: AmountBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1
+    - rid: 7573584555155390741
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 5

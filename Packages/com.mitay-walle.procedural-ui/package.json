@@ -1,0 +1,39 @@
+{
+  "name": "com.mitay-walle.procedural-ui",
+  "version": "1.0.0",
+  "displayName": "Procedural UI",
+  "description": "Framework to generate uGUI-based UI from C# code",
+  "unity": "2018.4",
+  "documentationUrl": "https://github.com/mitay-walle/com.chris-wagner.dice-notation/blob/main/README.md",
+  "licensesUrl": "https://github.com/mitay-walle/com.chris-wagner.dice-notation/blob/master/LICENSE.txt",
+  "dependencies": {},
+  "keywords": [
+    "Procedural",
+    "UI",
+    "UGUI",
+    "Generation"
+  ],
+  "author": "mitay-walle <mitay-walle91@mail.ru> (https://github.com/mitay-walle)",
+  "samples": [
+    {
+      "displayName": "Base Prefabs",
+      "description": "Ready Prefabs you can use with this framework",
+      "path": "Samples~/Base Prefabs"
+    },
+    {
+      "displayName": "Examples Scene",
+      "description": "Scene with code generated examples",
+      "path": "Samples~/Examples Scene"
+    },
+    {
+      "displayName": "Localized Base Prefabs",
+      "description": "Ready Prefabs you can use with this framework with built-in localization components",
+      "path": "Samples~/Localized Base Prefabs"
+    },
+    {
+      "displayName": "Localized Examples Scene",
+      "description": "Scene with code generated examples with built-in localization components",
+      "path": "Samples~/Localized Examples Scene"
+    }
+  ]
+}

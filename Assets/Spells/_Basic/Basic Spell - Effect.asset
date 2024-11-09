@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c34e10cb5a4c0c836263671f9c7d43, type: 3}
+  m_Name: Basic Spell - Effect
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 8278750042298253665
+  references:
+    version: 2
+    RefIds:
+    - rid: 8278750042298253665
+      type: {class: RepeatByTimeWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253666
+        _name: 13
+    - rid: 8278750042298253666
+      type: {class: PositionSourceToVariableEffectWrapper, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253667
+        _id: spawn_pos
+    - rid: 8278750042298253667
+      type: {class: FilterEnemiesDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253668
+        _distanceLimitName: 16
+    - rid: 8278750042298253668
+      type: {class: RepeatWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253669
+        _countName: 10
+    - rid: 8278750042298253669
+      type: {class: RetrieveWTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253670
+        _countName: 11
+    - rid: 8278750042298253670
+      type: {class: PositionSourceToVariableEffectWrapper, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253671
+        _id: target_pos
+    - rid: 8278750042298253671
+      type: {class: ProjectileSpawningEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _prefab: {fileID: 4233318938669076760, guid: 67550a91e5289e84eb64377c59d889a8, type: 3}
+        _triggeredEffect:
+          rid: 8278750042298253672
+        _spawnedEffect:
+          rid: 8278750042298253673
+    - rid: 8278750042298253672
+      type: {class: CompositeEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _effects:
+        - rid: 8278750042298253674
+        - rid: 8278750042298253675
+    - rid: 8278750042298253673
+      type: {class: CompositeEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _effects:
+        - rid: 8278750042298253676
+        - rid: 8278750042298253677
+        - rid: 8278750042298253678
+    - rid: 8278750042298253674
+      type: {class: BranchDisconnectingPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+    - rid: 8278750042298253675
+      type: {class: CacheStatDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253679
+        _newName: 20
+        _sourceName: 6
+    - rid: 8278750042298253676
+      type: {class: WaitDTEC, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253680
+        _name: 17
+    - rid: 8278750042298253677
+      type: {class: ProjectileSetPositionPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data:
+        _id: spawn_pos
+    - rid: 8278750042298253678
+      type: {class: VectorSubtractingTransitiveEffect, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253681
+        _firstID: target_pos
+        _secondID: spawn_pos
+        _resultID: delta
+    - rid: 8278750042298253679
+      type: {class: CacheMapDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253682
+    - rid: 8278750042298253680
+      type: {class: BranchDisconnectingPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+    - rid: 8278750042298253681
+      type: {class: CompositeEffect, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _effects:
+        - rid: 8278750042298253683
+        - rid: 8278750042298253684
+    - rid: 8278750042298253682
+      type: {class: ValueSubtractStatPEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _sourceName: 21
+        _operandName: 20
+    - rid: 8278750042298253683
+      type: {class: VectorToAngleTransitiveEffect, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253685
+        _fromID: delta
+        _resultID: angle
+    - rid: 8278750042298253684
+      type: {class: VectorNormalizingTransitiveEffect, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253686
+        _fromID: delta
+        _resultID: direction
+    - rid: 8278750042298253685
+      type: {class: ProjectileSetRotationPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data:
+        _id: angle
+    - rid: 8278750042298253686
+      type: {class: VectorMultiplyDTEC, ns: Bones.Gameplay.Effects.Transitive.Depth, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253687
+        _id: speed
+        _name: 15
+        _otherId: direction
+    - rid: 8278750042298253687
+      type: {class: TimeObservingEffectWrapper, ns: Bones.Gameplay.Effects.Transitive.Width, asm: Gameplay}
+      data:
+        _embeddedEffect:
+          rid: 8278750042298253688
+    - rid: 8278750042298253688
+      type: {class: ProjectileMovingPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data:
+        _id: speed

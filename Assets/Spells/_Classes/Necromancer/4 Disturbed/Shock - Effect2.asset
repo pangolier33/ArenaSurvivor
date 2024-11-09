@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b16e6fab3abe74aa598dff6b77c235, type: 3}
+  m_Name: Shock - Effect2
+  m_EditorClassIdentifier: 
+  _effect:
+    rid: 3020218911449677824
+  _useMulticast: 1
+  _useCount: 1
+  _spawnCountAsFan: 0
+  _searchEnemies: 1
+  _multicastDelay: 0.1
+  _prefab: {fileID: 5040760096215202096, guid: 2b4a4da0181cdb446945ee84cba4584f, type: 3}
+  _audioinfo:
+    <Volume>k__BackingField: 0
+    <Clip>k__BackingField: {fileID: 0}
+    <Spatialize>k__BackingField: 0
+    <SpatialBlend>k__BackingField: 0
+    <Pitch>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3020218911449677824
+      type: {class: NopPureEffect, ns: Bones.Gameplay.Effects.Pure, asm: Gameplay}
+      data: 

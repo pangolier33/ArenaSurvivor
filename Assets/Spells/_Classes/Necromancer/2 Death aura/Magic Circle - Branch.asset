@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd1383132ec4a13b3611e4aa03c9577, type: 3}
+  m_Name: Magic Circle - Branch
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: MAGIC CIRCLE
+  <Effect>k__BackingField: {fileID: 11400000, guid: 52cd6c15d3901d24fa2dce34724ba0c1, type: 2}
+  <Icon>k__BackingField: {fileID: 21300000, guid: 4e5d2adf71ddf1b4ca0fcae3c2a54133, type: 3}
+  _spellSettings:
+  - <Description>k__BackingField: RELEASES AN ENERGY <color="yellow"><b>WAVE AROUND</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586958955
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586958956
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586958957
+    <Weight>k__BackingField: 5
+  - <Description>k__BackingField: RELEASES AN ENERGY <color="yellow"><b>WAVE AROUND</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586958958
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586958959
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586958960
+    <Weight>k__BackingField: 10
+  - <Description>k__BackingField: RELEASES AN ENERGY <color="yellow"><b>WAVE AROUND</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586958961
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586958962
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586958963
+    <Weight>k__BackingField: 12
+  - <Description>k__BackingField: RELEASES AN ENERGY <color="yellow"><b>WAVE AROUND</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586958964
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586958965
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586958966
+    <Weight>k__BackingField: 14
+  - <Description>k__BackingField: RELEASES AN ENERGY <color="yellow"><b>WAVE AROUND</b><color="white">
+    <MapBuilder>k__BackingField:
+      _pairs:
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 6
+        <Builder>k__BackingField:
+          rid: 8278750380586958967
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 13
+        <Builder>k__BackingField:
+          rid: 8278750380586958968
+      - <Overwrite>k__BackingField: 0
+        <Name>k__BackingField: 24
+        <Builder>k__BackingField:
+          rid: 8278750380586958969
+    <Weight>k__BackingField: 16
+  references:
+    version: 2
+    RefIds:
+    - rid: 8278750380586958955
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 150
+    - rid: 8278750380586958956
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 1.2
+    - rid: 8278750380586958957
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.2
+        _y: 0.14
+    - rid: 8278750380586958958
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 150
+    - rid: 8278750380586958959
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4.6
+    - rid: 8278750380586958960
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.3
+        _y: 0.21
+    - rid: 8278750380586958961
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 150
+    - rid: 8278750380586958962
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4.4
+    - rid: 8278750380586958963
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.4
+        _y: 0.28
+    - rid: 8278750380586958964
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 150
+    - rid: 8278750380586958965
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4.2
+    - rid: 8278750380586958966
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.5
+        _y: 0.35
+    - rid: 8278750380586958967
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 150
+    - rid: 8278750380586958968
+      type: {class: ValueBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _base: 4
+    - rid: 8278750380586958969
+      type: {class: PairBuilder, ns: Bones.Gameplay, asm: Gameplay}
+      data:
+        _x: 0.6
+        _y: 0.42

@@ -1,0 +1,18 @@
+{
+  "displayName": "UI Editing",
+  "keywords": ["UI", "Workflow"],
+  "name": "priv.mitay-walle.feature.ui",
+  "unity": "2017.1",
+  "type": "feature",
+  "version": "1.0.0",
+  "description": "Base needed tools for UI Editing",
+  "dependencies": {
+  "priv.le-tai.true-shadow": "default",
+  "priv.josh-h.procedural-ui-image": "default",
+  "priv.demigiant.dotween": "default",
+  "priv.le-tai.translucent-image": "default",
+  "com.mitay-walle.rect-transform-editor": "https://github.com/mitay-walle/com.mitay-walle.rect-transform-editor.git",
+  "com.mitay-walle.ui-circle-segmented": "https://github.com/mitay-walle/com.mitay-walle.ui-circle-segmented.git"
+  },
+    "author": "Features <mitay-walle91@mail.ru> (https://github.com/mitay-walle)"
+}

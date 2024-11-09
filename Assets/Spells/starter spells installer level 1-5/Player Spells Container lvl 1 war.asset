@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29264a1f93441ba9e41aa8adc9ae00, type: 3}
+  m_Name: Player Spells Container lvl 1 war
+  m_EditorClassIdentifier: 
+  _initial:
+    rid: 4863668997466357773
+  _classes:
+  - {fileID: 11400000, guid: 1071b47ff407ba2b4a6cb6b97c0d00fb, type: 2}
+  _maxClassSpellsCount: 6
+  _buffs:
+  - rid: 7573584788854931788
+  - rid: 7573584788854931789
+  - rid: 7573584788854931790
+  - rid: 7573584788854931791
+  - rid: 7573584788854931793
+  - rid: 7573584788854931798
+  - rid: 7573584788854931792
+  - rid: 7573584788854931797
+  - rid: 7573584788854931795
+  - rid: 7573584788854931796
+  - rid: 7573584788854931794
+  - rid: 7573584788854931799
+  - rid: 4863669066516922369
+  - rid: 4863669066516922370
+  - rid: 4863669066516922371
+  - rid: 4863669066516922372
+  - rid: 4863669066516922376
+  - rid: 4863669066516922377
+  - rid: 4863669066516922375
+  - rid: 4863669066516922380
+  - rid: 4863669066516922382
+  - rid: 4863669066516922386
+  - rid: 4863669066516922387
+  - rid: 4863669066516922388
+  - rid: 4863669066516922390
+  - rid: 4863669066516922394
+  - rid: 4863669066516922393
+  - rid: 4863669066516922392
+  - rid: 4863669066516922391
+  - rid: 4863669066516922389
+  - rid: 4863669066516922385
+  - rid: 4863669066516922384
+  - rid: 4863669066516922383
+  - rid: 4863669066516922381
+  - rid: 4863669066516922379
+  _maxBuffsCount: 6
+  _fallbackBuffs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4863668997466357773
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 3864925173bd60ca68aef797ad20a229, type: 2}
+    - rid: 4863669066516922369
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: a6424b5b14fb2514a83a5c2350686fe7, type: 2}
+    - rid: 4863669066516922370
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 16ebf8ac00b5d4e44bc9e64813eb1a13, type: 2}
+    - rid: 4863669066516922371
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 34d0b7ff3ae2c654f84db1afe60fec5d, type: 2}
+    - rid: 4863669066516922372
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: c5ad0bc148d9c2a4dbd01384266d96e9, type: 2}
+    - rid: 4863669066516922375
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: d681b75ec1eb07c49b24e7031475db27, type: 2}
+    - rid: 4863669066516922376
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: f4795d2c3d327d143a69cc0081d372d0, type: 2}
+    - rid: 4863669066516922377
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 19c26a6056cbeea4faa1eccb030a17b5, type: 2}
+    - rid: 4863669066516922379
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 05bb5fb8aabd1724aa13568e8a1746a6, type: 2}
+    - rid: 4863669066516922380
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: b1421d7cb44ddb846ac620c3fd942c2c, type: 2}
+    - rid: 4863669066516922381
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 72bc96df6fd874240adcb1db27927d7a, type: 2}
+    - rid: 4863669066516922382
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: ca8dce4574c7d7349837c1ae8d474c9b, type: 2}
+    - rid: 4863669066516922383
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: ce94ace8810921840bddfecdf1a4b1b8, type: 2}
+    - rid: 4863669066516922384
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 3e8612c3301913a4587422f269704a92, type: 2}
+    - rid: 4863669066516922385
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 917b4d5ed42c578418262f7ff0c992d7, type: 2}
+    - rid: 4863669066516922386
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 9444209cfcc659c4ab74d0c45b886443, type: 2}
+    - rid: 4863669066516922387
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: ffa9c403e6a0fa74998f8e278a3d889e, type: 2}
+    - rid: 4863669066516922388
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: afe07b1d500d9c34d9f32f5886517e68, type: 2}
+    - rid: 4863669066516922389
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 28e8c3684ae234148bd171730af67dbd, type: 2}
+    - rid: 4863669066516922390
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 325512e14f760e0409fb1c97b8b72526, type: 2}
+    - rid: 4863669066516922391
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: db433f2719ced6145a46907296520c50, type: 2}
+    - rid: 4863669066516922392
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: e82dc99f1bf6c944fa0ba60e79216115, type: 2}
+    - rid: 4863669066516922393
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 3d75588fb5de07944b193f200d637ac4, type: 2}
+    - rid: 4863669066516922394
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 4cba37464d925b54ab862cedde18aade, type: 2}
+    - rid: 7573584788854931788
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 43cee2e7d343986b59e072f19ca46097, type: 2}
+    - rid: 7573584788854931789
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 8e365ec6a27b23518a576222dfb047c9, type: 2}
+    - rid: 7573584788854931790
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 530eb72fcef1c1b0cbcab6e92ff1b298, type: 2}
+    - rid: 7573584788854931791
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: c1066aedb136c7e6fb74dae8d96155be, type: 2}
+    - rid: 7573584788854931792
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 05de07642efbf5dcf83cb60214a61c51, type: 2}
+    - rid: 7573584788854931793
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: e146fa7e069189daeb9ce782b344807e, type: 2}
+    - rid: 7573584788854931794
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 0b0c117c3383dbcc0b4c38e17fc11a5e, type: 2}
+    - rid: 7573584788854931795
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 5280e147841f6ff9ab76f165715a329c, type: 2}
+    - rid: 7573584788854931796
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 71de5cbad8a31bf188440c9f7e894d1d, type: 2}
+    - rid: 7573584788854931797
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 03fba532835d9e2beaf966fe979fc42b, type: 2}
+    - rid: 7573584788854931798
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 6687da34acab76eff8d25fee7740a7ce, type: 2}
+    - rid: 7573584788854931799
+      type: {class: SingleSpellBranch, ns: Bones.Gameplay.Spells.Classes, asm: Gameplay}
+      data:
+        _spellBranch: {fileID: 11400000, guid: 4a7767c8050fb9ffb8b8800f9ee65ab9, type: 2}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664fc2284c7c4a659f60ee993ffcb911, type: 3}
+  m_Name: New Wave
+  m_EditorClassIdentifier: 
+  _type: 0
+  _durationInMinutes: 5
+  _spawners:
+  - Enabled: 1
+    _prefab: {fileID: 3746605496199866472, guid: 22a57279437c66e408672c539d2664c0, type: 3}
+    _dropConfig: {fileID: 11400000, guid: 33a9b0ef372095442b343a9f183a1d77, type: 2}
+    _statsConfig: {fileID: 11400000, guid: dd0f1bb56a6378943938424e3e70e3ea, type: 2}
+    _sharedConfig: {fileID: 11400000, guid: 14208eaa9d981fa4c94ea00647529cba, type: 2}
+    _amountResolver:
+      rid: 7209597212851699712
+    _positionResolver:
+      rid: 7209597212851699713
+    _enemySizeOffsetResolver:
+      rid: 6891008291659317275
+    _spawningDelay: 1
+    _isRepeating: 0
+    _limit: 500
+    _origin: 1
+    _despawningDistance: 20
+  references:
+    version: 2
+    RefIds:
+    - rid: 6891008291659317275
+      type: {class: RandomFAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range:
+          x: 0
+          y: 0.2
+    - rid: 7209597212851699712
+      type: {class: RandomAmountResolver, ns: Bones.Gameplay.Waves.Spawning.Amounts, asm: Gameplay}
+      data:
+        _range: {x: 20, y: 30}
+    - rid: 7209597212851699713
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 1, y: 2}

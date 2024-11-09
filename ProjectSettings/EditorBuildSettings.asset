@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Production/Splash.unity
+    guid: cb5c1ed34dacf17428fc1fa8ad69ae7d
+  - enabled: 1
+    path: Assets/Scenes/Production/Menu.unity
+    guid: 3e24db2449919ce428ec1297187c67b5
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 1 Green.unity
+    guid: 434eec858e12fda42b70bef46e27578a
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 2 Winter new.unity
+    guid: 7d3fa7aef424e9d48ad1addede2a7b9c
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 3 Lava.unity
+    guid: b7aecc7ce7c984847a792b1f9a81457e
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 4 Green new.unity
+    guid: 2161e4c69f4abf1458d7ebe0c05aab92
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 5 Winter.unity
+    guid: f0ab719b930b4fa4598b8859b4b3ba02
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 6 Lava new.unity
+    guid: 998777ffe40508740bfb6c338e6e340e
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 7 Green.unity
+    guid: d9bdd41c7107ed543a894fe9ffcd6c53
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 8 Winter.unity
+    guid: 525bc608b9cdfc541a0b5847afd30548
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 9 Lava.unity
+    guid: f65260e609cbb5b478c242fda2796a38
+  - enabled: 1
+    path: Assets/Scenes/Production/Levels/Level 10 (original).unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 616152ebe76e17646a2ab0695e7267d4, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 57a61798fe196c24d9eb4aeea524db4d, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: babdc15ae171b49488e1227f0aebcb90, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 9cf97809ad9808f4fa287b4de88161cf, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 28c2055157364df46b1074a5e8437b48, type: 2}
+    com.unity.localization.addressable-group-rules: {fileID: 11400000, guid: 9768a27e5a0351b4c9b3df65c8bf24e4, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 82ea79c3133edce43be3aa9e1414c656, type: 2}
+  m_UseUCBPForAssetBundles: 0

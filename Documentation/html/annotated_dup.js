@@ -1,0 +1,167 @@
+var annotated_dup =
+[
+    [ "Bones", "namespace_bones.html", [
+      [ "Gameplay", "namespace_bones_1_1_gameplay.html", [
+        [ "Effects", "namespace_bones_1_1_gameplay_1_1_effects.html", [
+          [ "Containers", "namespace_bones_1_1_gameplay_1_1_effects_1_1_containers.html", [
+            [ "Projectiles", "namespace_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles.html", [
+              [ "BindProjectileToPlayerPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_bind_projectile_to_player_pure_effect" ],
+              [ "CapsuleColliderParticleSynchronizer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_capsule_collider_particle_synchronizer" ],
+              [ "IProjectileHandle", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_i_projectile_handle.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_i_projectile_handle" ],
+              [ "ParticleProjectileDisconnector", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_projectile_disconnector.html", null ],
+              [ "ParticleSynchronizer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_synchronizer.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_particle_synchronizer" ],
+              [ "ProjectileEffectContainer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_effect_container.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_effect_container" ],
+              [ "ProjectileSettings", "struct_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_settings.html", "struct_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_projectile_settings" ],
+              [ "TimeProjectileDisconnector", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_time_projectile_disconnector.html", null ],
+              [ "TriggerProjectileActivator", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_trigger_projectile_activator.html", null ],
+              [ "UntriggerProjectileActivator", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_projectiles_1_1_untrigger_projectile_activator.html", null ]
+            ] ],
+            [ "EffectsInstaller", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_effects_installer.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_effects_installer" ],
+            [ "ItemEffectContainer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_item_effect_container.html", null ],
+            [ "ITriggerEnterBridge", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_i_trigger_enter_bridge.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_i_trigger_enter_bridge" ],
+            [ "ITriggerExitBridge", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_i_trigger_exit_bridge.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_i_trigger_exit_bridge" ],
+            [ "MonoEffectContainer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_mono_effect_container.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_mono_effect_container" ],
+            [ "ScriptableEffectContainer", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_scriptable_effect_container.html", "class_bones_1_1_gameplay_1_1_effects_1_1_containers_1_1_scriptable_effect_container" ]
+          ] ],
+          [ "Provider", "namespace_bones_1_1_gameplay_1_1_effects_1_1_provider.html", [
+            [ "Branches", "namespace_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_branches.html", [
+              [ "Branch", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_branches_1_1_branch.html", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_branches_1_1_branch" ],
+              [ "IBranch", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_branches_1_1_i_branch.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_branches_1_1_i_branch" ]
+            ] ],
+            [ "Common", "namespace_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_common.html", [
+              [ "Node", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_common_1_1_node.html", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_common_1_1_node" ]
+            ] ],
+            [ "Debug", "namespace_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_debug.html", [
+              [ "DebugNode", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_debug_1_1_debug_node.html", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_debug_1_1_debug_node" ]
+            ] ],
+            [ "Variables", "namespace_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables.html", [
+              [ "ITag", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_i_tag.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_i_tag" ],
+              [ "IVariable", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_i_variable.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_i_variable" ],
+              [ "MutableVariable", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_mutable_variable.html", "class_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_variables_1_1_mutable_variable" ]
+            ] ],
+            [ "IMutableTrace", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_i_mutable_trace.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_i_mutable_trace" ],
+            [ "ITrace", "interface_bones_1_1_gameplay_1_1_effects_1_1_provider_1_1_i_trace.html", null ]
+          ] ],
+          [ "Pure", "namespace_bones_1_1_gameplay_1_1_effects_1_1_pure.html", [
+            [ "AddToStatOnGetPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_add_to_stat_on_get_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_add_to_stat_on_get_p_e_c" ],
+            [ "BoostExperienceAmplifierPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_experience_amplifier_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_experience_amplifier_p_e_c" ],
+            [ "BoostFromStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_from_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_from_stat_p_e_c" ],
+            [ "BoostItemsCollectingRangePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_collecting_range_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_collecting_range_p_e_c" ],
+            [ "BoostItemsPullingForcePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_pulling_force_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_pulling_force_p_e_c" ],
+            [ "BoostItemsPullingRangePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_pulling_range_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_items_pulling_range_p_e_c" ],
+            [ "BoostPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_boost_p_e_c" ],
+            [ "BranchDisconnectingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_branch_disconnecting_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_branch_disconnecting_pure_effect" ],
+            [ "CoinPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_coin_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_coin_pure_effect" ],
+            [ "DamagingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_damaging_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_damaging_pure_effect" ],
+            [ "DivideStatOnGetPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_divide_stat_on_get_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_divide_stat_on_get_p_e_c" ],
+            [ "GetStatPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_get_stat_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_get_stat_pure_effect" ],
+            [ "GetVariablePureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_get_variable_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_get_variable_pure_effect" ],
+            [ "HealingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_healing_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_healing_pure_effect" ],
+            [ "KillingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_killing_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_killing_pure_effect" ],
+            [ "MoveHandleForwardPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_forward_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_forward_p_e_c" ],
+            [ "MoveHandlePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_p_e_c" ],
+            [ "MoveHandleToPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_to_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_move_handle_to_p_e_c" ],
+            [ "NopPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_nop_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_nop_pure_effect" ],
+            [ "PercentXpPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_percent_xp_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_percent_xp_pure_effect" ],
+            [ "PointHandlePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_point_handle_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_point_handle_p_e_c" ],
+            [ "ProjectileMovingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_moving_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_moving_pure_effect" ],
+            [ "ProjectileRotatingPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_rotating_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_rotating_pure_effect" ],
+            [ "ProjectileSetPositionPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_position_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_position_pure_effect" ],
+            [ "ProjectileSetRotationPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_rotation_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_rotation_pure_effect" ],
+            [ "ProjectileSetScalePureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_scale_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_projectile_set_scale_pure_effect" ],
+            [ "PullStatByTagDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_pull_stat_by_tag_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_pull_stat_by_tag_d_t_e_c" ],
+            [ "PureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_pure_effect" ],
+            [ "RequestSpellSelectorPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_request_spell_selector_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_request_spell_selector_p_e_c" ],
+            [ "ResetStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_reset_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_reset_stat_p_e_c" ],
+            [ "RotateHandlePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_rotate_handle_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_rotate_handle_p_e_c" ],
+            [ "SetHandlePositionPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_position_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_position_p_e_c" ],
+            [ "SetHandleRotationPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_rotation_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_rotation_p_e_c" ],
+            [ "SetHandleScalePEC", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_scale_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_set_handle_scale_p_e_c" ],
+            [ "SfxEjectorPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_sfx_ejector_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_sfx_ejector_pure_effect" ],
+            [ "VfxEjectorPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_vfx_ejector_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_vfx_ejector_pure_effect" ],
+            [ "XpPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_xp_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_pure_1_1_xp_pure_effect" ]
+          ] ],
+          [ "Transitive", "namespace_bones_1_1_gameplay_1_1_effects_1_1_transitive.html", [
+            [ "Depth", "namespace_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth.html", [
+              [ "AddStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_stat_p_e_c" ],
+              [ "AddStatPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_stat_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_stat_pure_effect" ],
+              [ "AddTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_add_t_e_c" ],
+              [ "AmountAddStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_amount_add_stat_p_e_c.html", null ],
+              [ "AmountCompareDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_amount_compare_d_t_e_c.html", null ],
+              [ "BinaryOperationTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_binary_operation_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_binary_operation_transitive_effect" ],
+              [ "CacheInputDirectionDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_input_direction_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_input_direction_d_t_e_c" ],
+              [ "CacheMapDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_map_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_map_d_t_e_c" ],
+              [ "CachePositionDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_position_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_position_d_t_e_c" ],
+              [ "CacheStatDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_stat_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_cache_stat_d_t_e_c" ],
+              [ "CompareDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_compare_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_compare_d_t_e_c" ],
+              [ "CreateBranchDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_create_branch_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_create_branch_d_t_e_c" ],
+              [ "CustomSetVariableEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_custom_set_variable_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_custom_set_variable_effect_wrapper" ],
+              [ "EnemiesFilterEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_enemies_filter_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_enemies_filter_effect_wrapper" ],
+              [ "FilterEnemiesDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_filter_enemies_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_filter_enemies_d_t_e_c" ],
+              [ "FloatAddingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_adding_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_adding_transitive_effect" ],
+              [ "FloatComparingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_comparing_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_comparing_transitive_effect" ],
+              [ "FloatCustomSetVariableEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_custom_set_variable_effect_wrapper.html", null ],
+              [ "FloatSubtractingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_subtracting_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_subtracting_transitive_effect" ],
+              [ "FloatUpdateVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_float_update_variable_transitive_effect.html", null ],
+              [ "InjectStatDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_inject_stat_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_inject_stat_d_t_e_c" ],
+              [ "InjectStatWithNameDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_inject_stat_with_name_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_inject_stat_with_name_d_t_e_c" ],
+              [ "InputDirectionTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_input_direction_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_input_direction_transitive_effect" ],
+              [ "IntAddingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_int_adding_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_int_adding_transitive_effect" ],
+              [ "IntComparingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_int_comparing_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_int_comparing_transitive_effect" ],
+              [ "IntUpdateVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_int_update_variable_transitive_effect.html", null ],
+              [ "InvokeFromScriptableObjectDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_invoke_from_scriptable_object_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_invoke_from_scriptable_object_d_t_e_c" ],
+              [ "IPositionSource", "interface_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_i_position_source.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_i_position_source" ],
+              [ "MultiplyStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_multiply_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_multiply_stat_p_e_c" ],
+              [ "MultiplyValueByAmountDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_multiply_value_by_amount_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_multiply_value_by_amount_d_t_e_c" ],
+              [ "MutationTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_mutation_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_mutation_transitive_effect" ],
+              [ "OverwriteStatDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_overwrite_stat_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_overwrite_stat_d_t_e_c" ],
+              [ "PairMultiplyStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_pair_multiply_stat_p_e_c.html", null ],
+              [ "PairSetStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_pair_set_stat_p_e_c.html", null ],
+              [ "PlayerFilterEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_player_filter_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_player_filter_effect_wrapper" ],
+              [ "PlayerVelocityTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_player_velocity_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_player_velocity_transitive_effect" ],
+              [ "PositionSourceToVariableEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_position_source_to_variable_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_position_source_to_variable_effect_wrapper" ],
+              [ "RandomGateTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_random_gate_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_random_gate_transitive_effect" ],
+              [ "RollDiceDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_roll_dice_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_roll_dice_d_t_e_c" ],
+              [ "SetStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_set_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_set_stat_p_e_c" ],
+              [ "SetVariableEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_set_variable_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_set_variable_effect_wrapper" ],
+              [ "StatToVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_stat_to_variable_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_stat_to_variable_transitive_effect" ],
+              [ "SubtractStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_subtract_stat_p_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_subtract_stat_p_e_c" ],
+              [ "SubtractStatPureEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_subtract_stat_pure_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_subtract_stat_pure_effect" ],
+              [ "UnaryOperationTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_unary_operation_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_unary_operation_transitive_effect" ],
+              [ "UpdateVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_update_variable_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_update_variable_transitive_effect" ],
+              [ "ValueAddStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_value_add_stat_p_e_c.html", null ],
+              [ "ValueCompareDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_value_compare_d_t_e_c.html", null ],
+              [ "ValueSubtractStatPEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_value_subtract_stat_p_e_c.html", null ],
+              [ "VectorCustomSetVariableEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_custom_set_variable_effect_wrapper.html", null ],
+              [ "VectorMultiplyDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_multiply_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_multiply_d_t_e_c" ],
+              [ "VectorMultiplyingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_multiplying_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_multiplying_transitive_effect" ],
+              [ "VectorNormalizingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_normalizing_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_normalizing_transitive_effect" ],
+              [ "VectorSubtractingTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_subtracting_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_subtracting_transitive_effect" ],
+              [ "VectorToAngleTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_to_angle_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_to_angle_transitive_effect" ],
+              [ "VectorUpdateVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_depth_1_1_vector_update_variable_transitive_effect.html", null ]
+            ] ],
+            [ "Width", "namespace_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width.html", [
+              [ "AllRetrievingEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_all_retrieving_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_all_retrieving_effect_wrapper" ],
+              [ "CompositeEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_composite_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_composite_effect" ],
+              [ "DistributeWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_distribute_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_distribute_w_t_e_c" ],
+              [ "IfElseTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_if_else_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_if_else_transitive_effect" ],
+              [ "IntCustomSetVariableTransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_int_custom_set_variable_transitive_effect.html", null ],
+              [ "InvokeOnAddWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_invoke_on_add_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_invoke_on_add_w_t_e_c" ],
+              [ "InvokeOnSubtractWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_invoke_on_subtract_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_invoke_on_subtract_w_t_e_c" ],
+              [ "LimitedRetrievingEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_limited_retrieving_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_limited_retrieving_effect_wrapper" ],
+              [ "ProjectileSpawningEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_projectile_spawning_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_projectile_spawning_effect" ],
+              [ "RepeatByTimeWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeat_by_time_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeat_by_time_w_t_e_c" ],
+              [ "RepeatingEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeating_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeating_effect_wrapper" ],
+              [ "RepeatWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeat_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_repeat_w_t_e_c" ],
+              [ "RetrieveUnitWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_retrieve_unit_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_retrieve_unit_w_t_e_c" ],
+              [ "RetrieveWTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_retrieve_w_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_retrieve_w_t_e_c" ],
+              [ "TimeObservingEffectWrapper", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_time_observing_effect_wrapper.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_time_observing_effect_wrapper" ],
+              [ "WaitDTEC", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_wait_d_t_e_c.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_width_1_1_wait_d_t_e_c" ]
+            ] ],
+            [ "TransitiveEffect", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_transitive_effect.html", "class_bones_1_1_gameplay_1_1_effects_1_1_transitive_1_1_transitive_effect" ]
+          ] ],
+          [ "IEffect", "interface_bones_1_1_gameplay_1_1_effects_1_1_i_effect.html", "interface_bones_1_1_gameplay_1_1_effects_1_1_i_effect" ]
+        ] ]
+      ] ]
+    ] ]
+];

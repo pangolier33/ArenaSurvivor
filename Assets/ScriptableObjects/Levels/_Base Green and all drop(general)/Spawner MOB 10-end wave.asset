@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f70c677987d4aafa20a4c154c852e5a, type: 3}
+  m_Name: Spawner MOB 10-end wave
+  m_EditorClassIdentifier: 
+  DespawningDistance: 4.95
+  Origin: 1
+  PositionResolver:
+    rid: 6891008291659317311
+  references:
+    version: 2
+    RefIds:
+    - rid: 6891008291659317311
+      type: {class: InCirclePositionResolver, ns: Bones.Gameplay.Waves.Spawning.Positions, asm: Gameplay}
+      data:
+        _range: {x: 4.8, y: 4.85}
